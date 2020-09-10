@@ -119,7 +119,7 @@ This block displays the date and links to Google Calendar.
 {% if page.humandate %}
 <p id="when">
   <strong>When:</strong>
-  {{page.humandate}}.
+  {{page.humandate}}, {{page.humantime}}.
 </p>
 {% endif %}
 
