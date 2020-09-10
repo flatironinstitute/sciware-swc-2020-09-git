@@ -41,8 +41,6 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 {% endunless %}
 {% endif %}
 
-<a href="https://indico.flatironinstitute.org/event/717/">Registration</a>
-
 
 <h2 id="general">General Information</h2>
 
@@ -122,9 +120,13 @@ This block displays the date and links to Google Calendar.
 <p id="when">
   <strong>When:</strong>
   {{page.humandate}}.
-  {% include workshop_calendar.html %}
 </p>
 {% endif %}
+
+<p id="when">
+  <strong>Register:</strong>
+  Please <a href="https://indico.flatironinstitute.org/event/717/">Register</a> and tell us a bit about your experience with Git and GitHub.
+</p>
 
 {% comment %}
 SPECIAL REQUIREMENTS
@@ -213,7 +215,7 @@ Edit the text to match who can attend the workshop. For instance:
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
     This workshop is open to Flatiron staff, affiliated researchers, and their students and colleagues.
-    Please let us know you are coming by registering. LINK TBD.
+    Please let us know you are coming by <a href="https://indico.flatironinstitute.org/event/717/">registering</a>.
 </p>
 
 <hr/>
